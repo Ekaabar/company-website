@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">  <title>RQVST</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+    <!--********************************navbar****************************************-->
+         <nav class="navbar navbar-expand-sm fixed-top">
+            <div class="mycontainer">
+                <a  href="../index.html"><img class="float-left logo" src="src/logo/210129_RQVST_Logo.svg" alt="RQVST-Interface-Screenshot"/></a>
+                <div class="navbardefault collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#product-section" class="underline link-nav">PRODUCT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#features-section" class="underline link-nav">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#vision-section" class="underline link-nav">VISION</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact-section" class="underline link-nav">CONTACT</a>
+                        </li>
+                    </ul>
+                    <a href="####" class="butt butt--nav">SIGN IN</a> 
+                </div>
+                <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+                <label for="navi-toggle" class=" navigation__button">
+                    <span class="navigation__icon">&nbsp;</span>
+                </label>
+                <div class=" navigation__nav">
+                    <div class="navigation__background">&nbsp;</div>
+                    <div class="navigation__list">
+                        <ul>
+                            <li><a href="#product-section" class=" underline navigation__link">PRODUCT</a></li>
+                            <li><a href="#features-section" class="underline navigation__link">FEATURES</a></li>
+                            <li><a href="#vision-section" class="underline navigation__link">VISION</a></li>
+                            <li><a href="#contact-section" class="underline navigation__link">CONTACT</a></li>
+                            <li class="no-bullet">
+                                <button href="####" type="button" class=" navigation__butt">SIGN IN</button>
+                            </li>
+                            <li ><a href="src/PrivacyPolicy.html" class="navigation__link remove" style=" text-decoration: underline #1E99DC 2px;">Privacy policy</a></li>
+                            <li ><a href="src/Imprint.html" class="navigation__link remove" style=" text-decoration: underline #1E99DC 2px;">Imprint</a></li>
+                        </ul>   
+                    </div>
+                </div>
+            </div>
+        </nav>
+       <!----------------------------------HOME SECTION ----------------------------------->
+        <header>
+            <section id="home-section">
+                <div class="video-container video-wrapper">
+                    <video  autoplay loop muted>
+                        <source src="src/img/rqvst-background-video.mp4" type="video/mp4">
+                    </video>
+                    <div class="rows">
+                        <div class="home-inner">
+                            <div class="inner">
+                                <h1 class=" heading-primary--main">Supply chain revolution.</h1>
+                                <p class="heading-secondary--sub">Introducing World's first Digital Supply Network for the Lifestyle industry. 
+                                    Real-time, adaptive and intelligent elevating supply chain collaboration to the next level.</p> 
+                            </div>
+                            <a href="#" class="butt butt--home animated" data-toggle="modal" data-target="#contactModal">CONTACT</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+    <!--**********************************PRODUCT SECTION ************************************-->
+        <div class="heading-subtitle">01 <span> PRODUCT</span></div>   
+        <section id="product-section">
+            <div class="firstpart">
+                <div class="rows">
+                    <div class="col-1-of-2-left">
+                        <div class="heading-secondary">Get started with the RQVST Retail Network:</div>
+                        <div class="heading-tertiary">RQVST is your new solution for order information management between producers, brands and           retailers. 
+                            Integrate with all your partners and establish seamless inter-organizational workflows in order / 
+                            product information management (PIM).
+                        </div>
+                    </div>
+                    <div class="col-1-of-2-right">
+                        <img class="illustration" src="src/img/RQVST-Interface-Screenshot.png" alt="RQVST-Interface-Screenshot">
+                    </div>
+                </div>
+            </div>
+            <div class="rows">      
+                <div class="secondpart">
+                    <div class="heading-primary--sub">Your instant benefits:</div>
+                    <ul class="heading-tertiary">
+                        <li>Upload / Download product data at any time, no more emails. Customize your imports / exports to your needs</li>
+                        <li>See all your data history, browsable and stored safely</li>
+                        <li>Export / import / update product data within seconds if you connect RQVST to your ERP / system</li>
+                        <li>Report / manage claims directly on article level with easy photo upload and reports</li>
+                        <li>multi-user setup with customizable access levels</li>
+                        <li>Always get data before preorders / deliveries: Product updates, cancellations, price changes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="circle">
+                <div class="thirdpart heading-primary--sub">Setting a new standard for the lifestyle industry</div>
+            </div>
+        </section>
+        <!------------------------------------FEATURES SECTION -------------------------------------------->
+        <div class="heading-subtitle">02 <span> FEATURES</span> </div>
+        <section id="features-section">
+            <div class="rows2">
+                <div class="col-1-of-3">
+                    <img class="icon" src = "src/icon/RQVST_Icons-Cloud.svg" alt="cloud"/>
+                        <div class="heading-tertiary--main mb-4">Cloud-based</div>
+                        <div class="heading-features featurecontent">Our progressive web app is natively build for the cloud, giving you full access across devices and environments.</div>
+                </div>
+                <div class="col-1-of-3">
+                    <img class="icon" src = "src/icon/RQVST_Icons-API first.svg" alt="API first approach"/>
+                        <div class="heading-tertiary--main mb-4">API first apporach</div>
+                        <div class="heading-features featurecontent">Our API-first approach makes RQVST your connector, you can use the tools you want.</div>
+                </div>
+                <div class="col-1-of-3">
+                    <img class="icon " src = "src/icon/RQVST_Icons-unified data.svg" alt="Unified data goal"/>
+                        <div class="heading-tertiary--main mb-4">Unified data goal</div>
+                        <div class="heading-features featurecontent">RQVST gives you the possibility to work with standardized attributes while you are still able to customize your data management to your needs.</div>
+                </div>
+                <div class="col-1-of-3">
+                    <img class="icon" src = "src/icon/RQVST_Icons-Efficiency.svg" alt="efficiency"/>
+                    <div class="heading-tertiary--main featurestitle mb-4">Efficiency</div>
+                    <div class="heading-features featurecontent">Store workflows within RQVST so your team can work more independent and smarter. Save time and reduce costs in your product information management.</div>
+                </div>
+                <div class="col-1-of-3">
+                    <img class="icon" src = "src/icon/RQVST_Icons-realtime.svg" alt="Realtime overview"/>
+                    <div class="heading-tertiary--main featurestitle mb-4">Realtime overview</div>
+                    <div class="heading-features featurecontent">When relevant data gets updated, RQVST updates your systems directly – physical products now can be updated like software!</div>
+                </div>
+                <div class="col-1-of-3">
+                    <img class="icon" src = "src/icon/RQVST_Icons-smart contracts.svg" alt="Smart contract"/>
+                    <div class="heading-tertiary--main  featurestitle mb-4">Smart contracts</div>
+                    <div class="heading-features featurecontent">Using digital ledger technology you can manage your orders, contracts and documents tamper-proof and at highest security level.</div>
+                </div>
+            </div>
+            <div class="rectangle1"></div>
+            <div class="rectangle2"></div>
+            <div class="rectangle3"></div>  
+            <div class="rectangle4"></div>
+            <div class="rectangle5"></div>
+        </section>
+        <div class="getintouch">
+            <div class="heading-subtitle" style="padding-top: 1.45rem;">GET IN TOUCH</div>
+            <div class="rows">
+                <div>   
+                    <div class=" getintouchcontent heading-primary--sub">Interested in our products and services?</div>
+                    <button class="butt butt--getintouch animated" data-toggle="modal" data-target="#contactModal">CONTACT</button>
+                    
+                </div> 
+            </div> 
+        </div>
+        <!-----------------------------------VISION SECTION -------------------------------------------->
+        <div class="heading-subtitle">03 <span> VISION </span></div>
+        <section id="vision-section">
+            <div class="visioncontent">
+                <div class="rows">
+                    <div class="col-1-of-2-left">
+                        <div class="heading-secondary">The RQVST Retail Network can be the starting point into a fully digital procurement process.</div>
+                    </div>
+                    <div class="col-1-of-2-right">
+                        <div class=" heading-tertiary">RQVST will be the basis to integrate various functions and apps for your individual network, customized to your needs. 
+                        Imagine an inter-organizational operating system that is secure and reliable in all directions, sharing the information you need to automatize 
+                        and (re-)build your supply chains with all partners, securely stored with digital ledger technology (blockchain).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------------------CONTACT SECTION -------------------------------------------->
+        <div class="heading-subtitle">04 <span> LET'S TALK</span></div>
+        <section id="contact-section">
+            <div class="rows3">
+                <div class="col-1-of-2-leftsecond">
+                    <div class="heading-secondary">Interested in our products and services?</div>
+                    <div class=" heading-tertiary">At Rqvst Technologies, we love solving problems and are passionate about building great digital products.<br>
+                    We would like to meet you and help to improve your supply chain management.<br><br>
+                    Get in touch today!
+                    </div>
+                    <div style=" text-decoration: underline #1E99DC 2px; margin-top:3.8rem; margin-bottom: 3rem;">contact@rqvst.com</div>
+                </div>
+                <div class="col-1-of-2-rightsecond">
+                    <div class="rectangle6"></div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class=" form-head">* required fiels</p>
+                            <form>
+                            <div class="form-group heading-tertiary mt-5">
+                                <label for="fname">First name*</label><br>
+                                <input type="text" class="form-control border-bottom " placeholder="YYY"><br>
+                            </div>
+                            <div class="form-group heading-tertiary">
+                                <label for="lname">Last name*</label><br>
+                                <input type="text"  class="form-control border-bottom" placeholder="XXX"><br>
+                            </div>
+                            <div class="form-group heading-tertiary">
+                                <label for="lname">Email*</label><br>
+                                <input type="text" class="form-control border-bottom" placeholder="YYY@XXX.de"><br>
+                            </div>
+                            <button type="submit" class=" butt butt--card">SEND</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="rectangle7"></div>
+        <footer id="main-footer">
+            <div class="mycontainer">
+                <div class="col-1-of-4">
+                    <a><img class="footer-logo" src="src/logo/210129_RQVST_Logo.svg" alt="RQVST-Interface-Screenshot"/></a>
+                </div>
+                <div class="col-1-of-4 footer-item ">
+                    <ul>
+                        <li>RQVST</li>
+                        <li>Land</li>
+                        <li>Straße</li>
+                        <li>Stadt</li>
+                    </ul>
+                </div>
+                <div class="col-1-of-4 footer-item">
+                    <ul>
+                        <li><a href="#####" style="color:#fff; text-decoration: none" class=" underline">+491500110xxx1</a></li>
+                        <li><a href="#####"style="color:#fff; text-decoration: none" class=" underline">info@rqvst.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-1-of-4 footer-item">
+                    <ul>
+                        <li ><a href="src/PrivacyPolicy.html" style=" color:#fff; text-decoration: underline #1E99DC 2px;">Privacy policy </a></li>
+                        <li ><a href="src/Imprint.html" style=" color:#fff; text-decoration: underline #1E99DC 2px;">Imprint</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="modal fade text-dark" id="contactModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+                  <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="name">Message</label>
+                      <textarea class="form-control"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <script src="src/script.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
